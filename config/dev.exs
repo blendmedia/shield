@@ -23,7 +23,7 @@ config :phoenix, :stacktrace_depth, 20
 
 config :authable, Authable.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "mustafaturan",
+  username: "postgres",
   password: "",
   database: "shield_dev",
   hostname: "localhost",
